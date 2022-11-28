@@ -9,7 +9,7 @@ const Home = () => {
         <Navbar/>
         {/* <DropdownComponent/> */}
         {/* <Mn/> */}
-        <Example/>
+        {/* <Example/> */}
     </div>
   )
 }
