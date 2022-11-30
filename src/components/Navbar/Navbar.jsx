@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="py-3  border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 mx-1 lg:mx-0">
             <div className="relative flex items-center">
               <a
-                href="/"
+                href="#"
                 className="mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto"
               >
                 <span className="sr-only">Limos</span>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         className="hover:text-sky-500 text-black dark:hover:text-sky-400"
                       >
                        <Example option="New" opts={opts}/>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="https://tailwindui.com/?ref=top"
+                        href="#"
                         className="hover:text-sky-500 text-black dark:hover:text-sky-400"
                       >
                         Used
@@ -53,7 +53,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         className="hover:text-sky-500 text-black dark:hover:text-sky-400"
                       >
                         Sell yours
@@ -61,7 +61,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         className="hover:text-sky-500 text-black dark:hover:text-sky-400"
                       >
                         Top Brands
@@ -69,7 +69,7 @@ const Navbar = () => {
                     </li>                   
                     <li className="pl-64">
                       <a
-                        href="/"
+                        href="#"
                         className="hover:text-sky-500 text-black dark:hover:text-sky-400"
                       >
                         Sign in
@@ -77,14 +77,13 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </nav>
-              </div>
-              
+              </div>              
               <button
                 type="button"
                 className="ml-auto text-slate-500 w-8 h-8 -my-1 flex items-center justify-center hover:text-slate-600 lg:hidden dark:text-slate-400 dark:hover:text-slate-300">
                 <span className="sr-only">Search</span>
                 <svg
-                  width="24"
+                  width="24"bbo
                   height="24"
                   fill="none"
                   stroke="currentColor"

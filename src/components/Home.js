@@ -8,16 +8,20 @@ import B2 from './Banner/B2'
 import B3 from './Banner/B3'
 import B4 from './Banner/B4'
 import SliderComponent from './Banner/B5'
+import Footer from './Footer/Footer'
+import Card from './card/Card'
 const Home = () => {
   return (
-    <div>
+    <>
         <Navbar/>
         {/* <B2/>
         <B4/> */}
         <SliderComponent/>
+        <Card/>
         {/* <Banner/> */}
-    </div>
+        <Footer/>
+    </>
   )
 }
 
-export default Home
+export default Home;
