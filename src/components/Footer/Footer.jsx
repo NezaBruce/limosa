@@ -8,7 +8,8 @@ const Footer = () => {
     <div class="md:flex md:mx-8">
         <div class="mb-6 md:mb-0 mx-16 px-16">
             <a href="#" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
+                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" /> */}
+                <img src="../../../business-class.svg" className='mr-4 h-8' alt='Limos Logo'/>
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Limos</span>
             </a>
         </div>

@@ -42,7 +42,7 @@ const CardInt = (props) => {
             </svg>
             <span>{props.year}</span>
           </div>
-          <div className="petrol">
+          <div className="petrol">  
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
