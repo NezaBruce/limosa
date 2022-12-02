@@ -4,8 +4,7 @@ import Example from "../bang";
 // import { Avatar } from "flowbite-react";
 const Navbar = () => {
   const opts = ["Toyota", "Limus", "Royce"];
-  return (
-    <div>
+  return (    
       <div
         className="sticky top-0 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900
          dark:border-slate-50/[0.06] bg-white supports-backdrop-blur:bg-white/95 dark:bg-slate-900/76"
@@ -143,7 +142,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

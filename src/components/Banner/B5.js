@@ -10,6 +10,18 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
+{/* <dependency>
+<groupId>org.postgresql</groupId>
+<artifactId>postgresql</artifactId>
+<scope>runtime</scope>
+</dependency>
+
+<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<scope>runtime</scope>
+		</dependency> */}
+		
 export default function SliderComponent() {
     return (
         <div className="mx-auto bg-blue">
@@ -29,7 +41,7 @@ export default function SliderComponent() {
                 modules={[Autoplay]}
                 className="mySwiper h-[36rem] w-full"
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img
                         className="object-fit overflow-visible w-full h-full"
                         // src="https://images.unsplash.com/photo-1623264025997-7f3e64bec444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZCUyMGNydWlzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
@@ -37,7 +49,7 @@ export default function SliderComponent() {
                         // src="https://cdn.pixabay.com/photo/2022/07/24/17/55/wind-energy-7342177__340.jpg"
                         alt="image slide 2"
                     />
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <img
                         className="object-fill w-full h-full"
@@ -47,7 +59,7 @@ export default function SliderComponent() {
                         alt="image slide 2"
                     />
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img
                         className="object-fit overflow-visible w-full h-full"
                         // src="https://images.unsplash.com/photo-1623264025997-7f3e64bec444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZCUyMGNydWlzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
@@ -55,8 +67,8 @@ export default function SliderComponent() {
                         // src="https://cdn.pixabay.com/photo/2022/07/24/17/55/wind-energy-7342177__340.jpg"
                         alt="image slide 2"
                     />
-                </SwiperSlide>
-                <SwiperSlide>
+                </SwiperSlide> */}
+                {/* <SwiperSlide>
                     <img
                         className="object-fit overflow-visible w-full h-full"
                         // src="https://images.unsplash.com/photo-1623264025997-7f3e64bec444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZCUyMGNydWlzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
@@ -64,7 +76,7 @@ export default function SliderComponent() {
                         // src="https://cdn.pixabay.com/photo/2022/07/24/17/55/wind-energy-7342177__340.jpg"
                         alt="image slide 2"
                     />
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </div>
     );

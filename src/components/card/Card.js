@@ -5,9 +5,9 @@ import CardInt from "./CardInt";
 
 const Card = () => {
   return (
-    <>
+    <div className="mb-24">
     <CardHeader/>
-    <div className="grid grid-cols-4 gap-4 align-center mx-28 mb-12">
+    <div className="grid grid-cols-4 gap-4 align-center mx-28 mb-16">
       <Link to="/bookit">
 
      <CardInt imgurl="https://legendmotorsuae.com/uploads/vehicle/colors/007f05461948a4180a7c0914545427ee01.jpg"
@@ -44,7 +44,7 @@ const Card = () => {
      year="2022"
      />
     </div>
-     </>
+     </div>
   );
 };
 
